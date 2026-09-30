@@ -132,7 +132,7 @@ elif st.session_state.screen == 3:
 
 # SCREEN 4
 elif st.session_state.screen == 4:
-    st.markdown('<div class="kicker">the little things</div><h1>Things that don't need a big explanation.</h1>',unsafe_allow_html=True)
+    st.markdown("<div class='kicker'>the little things</div><h1>Things that don't need a big explanation.</h1>", unsafe_allow_html=True)
     items=[
         ("01","RANDOM MOMENTS","The moments nobody planned often become the ones worth keeping."),
         ("02","THE CHAOS","Not everything has to make sense to become a good memory."),
@@ -161,3 +161,4 @@ else:
             st.rerun()
 
 st.markdown('<div class="footer">TOOBA.exe // built with Streamlit // no AI required</div>',unsafe_allow_html=True)
+                
